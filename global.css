@@ -1,0 +1,74 @@
+:root {
+	font-size: 62.5%;
+	--bg: #181818;
+	--fg: #dedede;
+}
+
+body {
+	font-size: 1.6rem;
+	background-color: var(--bg);
+	color: var(--fg);
+	font-family: system-ui, sans-serif;
+	margin: 20vh auto;
+	max-width: 100vh;
+	text-align: center;
+}
+
+button {
+	font-size: 1.8rem;
+	width: 15rem;
+	height: 5rem;
+	background-color: var(--bg);
+	color: var(--fg);
+	opacity: 80%;
+	transition: 10ms;
+	border: solid;
+	border-width: 0 0 0 0;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button.active, button:hover {
+	border-color: var(--fg);
+	border-width: 0 0 0.2rem 0;
+}
+
+button.active {
+	opacity: 100%;
+}
+
+h1 {
+	font-size: 3.6rem;
+}
+
+h2 {
+	font-size: 2.4rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 2rem;
+}
+
+li {
+	font-size: 1.8rem;
+}
+
+a, a:visited, a:active {
+	color: #ef6b6b;
+}
+
+.flex-row {
+	display: flex;
+	justify-content: center;
+	gap: 5rem;
+}
+
+#page-content {
+	text-align: left;
+}

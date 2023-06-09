@@ -4,6 +4,10 @@
 	--fg: #dedede;
 }
 
+html {
+	overflow-y: scroll;
+}
+
 body {
 	font-size: 1.6rem;
 	background-color: var(--bg);
